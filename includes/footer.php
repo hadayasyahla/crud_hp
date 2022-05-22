@@ -10,7 +10,7 @@
 <br>
 <section class="">
   <!-- Footer -->
-  <footer class="text-center text-white" style="background-color: black">
+  <footer class="text-center text-white" style="background-color: pink">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: CTA -->
@@ -27,9 +27,9 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: black;">
+    <div class="text-center p-3" style="background-color: pink;">
       © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">Plat.com</a>
+      <a class="text-white" href="https://mdbootstrap.com/">Hp.com</a>
     </div>
     <!-- Copyright -->
   </footer>

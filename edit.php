@@ -7,7 +7,7 @@ $tahun = '';
 
 if  (isset($_GET['id'])) {
   $id = $_GET['id'];
-  $query = "SELECT * FROM data WHERE id=$id";
+  $query = "SELECT * FROM hp WHERE id=$id";
   $result = pg_query($conn, $query);
   if (pg_num_rows($result) == 1) {
     $row = pg_fetch_array($result);
@@ -25,7 +25,7 @@ if (isset($_POST['update'])) {
   $merek = $_POST['tipe'];
   $tipe = $_POST['tahun'];
 
-  $query = "UPDATE data set id = '$id', merek = '$merek', tipe = '$tipe', tahun = '$tahun' WHERE id=$id";
+  $query = "UPDATE hp set id = '$id', merek = '$merek', tipe = '$tipe', tahun = '$tahun' WHERE id=$id";
   pg_query($conn, $query);
   $_SESSION['message'] = 'Data Berhasil Di Ubah';
   $_SESSION['message_type'] = 'warning';

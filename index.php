@@ -49,7 +49,7 @@
         <tbody>
 
           <?php
-          $query = "SELECT * FROM data";
+          $query = "SELECT * FROM hp";
           $result_tasks = pg_query($conn, $query);    
 
           while($row = pg_fetch_assoc($result_tasks)) { ?>

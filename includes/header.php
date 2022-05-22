@@ -13,7 +13,7 @@
 
     <nav class="navbar navbar-dark bg-dark">
       <div class="container">
-          <img src="img/Header.jpg" width="100%" height="200">
+          <img src="img/Header1.jpg" width="100%" height="200">
         <a class="navbar-brand" href="index.php"><b>APLIKASI PEREKAMAN DATA HP</b></a>
         <a class="nav-item nav-link" href="https://www.instagram.com/lita_syahla/">Profile Saya</a>
       </div>
