@@ -12,18 +12,18 @@ if  (isset($_GET['id'])) {
   if (pg_num_rows($result) == 1) {
     $row = pg_fetch_array($result);
     $id = $row['id'];
-    $nomor = $row['merek'];
-    $merek = $row['tipe'];
-    $tipe = $row['tahun'];
+    $merek = $row['merek'];
+    $tipe = $row['tipe'];
+    $tahun = $row['tahun'];
   }
 }
 
 if (isset($_POST['update'])) {
   $id = $_GET['id'];
   $id= $_POST['id'];
-  $nomor= $_POST['merek'];
-  $merek = $_POST['tipe'];
-  $tipe = $_POST['tahun'];
+  $merek= $_POST['merek'];
+  $tipe = $_POST['tipe'];
+  $tahun = $_POST['tahun'];
 
   $query = "UPDATE hp set id = '$id', merek = '$merek', tipe = '$tipe', tahun = '$tahun' WHERE id=$id";
   pg_query($conn, $query);
